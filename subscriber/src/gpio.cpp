@@ -163,7 +163,7 @@ int gpiomain(const std::string& command) {
     value = std::stoi(p.second);
   }
 
-  std::cout << cmd << ' ' << value << '\n';
+  // std::cout << cmd << ' ' << value << '\n';
 
   if (cmd == "forward") {
     forward(p_handle);
